@@ -9,19 +9,19 @@ Training data must be in format [_source][face_embeddings] and [_source][unique_
 Make necessary changes to training data as deemed. 
 
 #----------Import this module if you want to train KMeans clustering----------
-# import training
-# training.main(path)
+#import training
+#training.main(path)
 
 #----------Get Euc. dist. between cluster centroids and also get minimum dist. among two centroids of clusters----------
-import euc_dist
-euc_dist.main()
+#import euc_dist
+#euc_dist.main()
 
 #----------To verify if cluster points are in centroid----------
-# import verify
-# verify.main(path)
+#import verify
+#verify.main(path)
 
 #----------Pass a query face (128 bit) to find nearest cluster and check nearest datapoint----------
-import query
+#import query
 #format is in main_p.py
  
 
